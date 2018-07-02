@@ -1,13 +1,13 @@
 import random
 #Inicio del programa
-bombos = []
+bombos=[]
 for i in range(1,5):
         archivo = "bombo"+str(i)+".txt"
         leer_archivo = open(archivo)
         bombo = leer_archivo.readline()
         lista = bombo.split(", ")
         bombos.append(lista)
-grupo = []
+grupo=[]
 lista_grupos = []
 for i in range(8):
         for i in bombos:
