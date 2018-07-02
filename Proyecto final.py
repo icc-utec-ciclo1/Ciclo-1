@@ -1,5 +1,5 @@
 import random
-
+#Inicio del programa
 bombos = []
 for i in range(1,5):
         archivo = "bombo"+str(i)+".txt"
@@ -100,6 +100,7 @@ def partido(pais1,pais2):
                 return pais2
         else:
                 return pais1
+#Fase de print
 print("")
 print("OCTAVOS")
 print("_________")
@@ -151,4 +152,4 @@ print("")
 print(lista_final[0],"vs.",lista_final[1])
 print("CAMPEÓN:",partido(lista_final[0],lista_final[1]))
 
-
+#Fin del programa
